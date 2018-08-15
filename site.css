@@ -1,0 +1,128 @@
+   body{margin: 0;padding: 0;}
+        .header
+        {
+        	-border: 1px solid red;
+        	background-color: #ddd;
+        	padding: 1px;
+        }
+        .header .logo
+        {
+            -border: 1px solid red;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        .header .logo img 
+        {
+        	-border: 1px solid red;
+            width: 150px;
+
+        }
+        
+        .header .menu
+        {
+            -border: 1px solid red;
+            width:72%;
+            vertical-align:center;
+            display:inline-block;
+            text-align:right;
+
+        }     
+        .header .menu ul li
+        {
+            -border: 1px solid red;
+            display:inline-block;
+            background-color: yellow; 
+            padding: 15px 25px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
+            text-transform: uppercase;
+
+        }
+        .header .menu ul li:hover
+        {
+            color:red; 
+
+        }
+        .desc
+        {
+            -border: 1px solid red;
+            height: 500px;
+            background-color: #ddd;
+        }
+        .desc .left-blog
+        {
+            -border: 1px solid red;
+            height: 100%;
+            width:50%;
+            background-color: red;
+            display: inline-block;
+            vertical-align: top;
+            float:left; 
+        }
+        .desc .left-blog .blog1
+        {
+            -border: 1px solid red;
+            height: 42%;
+            width:95%;
+            background-color: black;
+            display: inline-block;
+            vertical-align: top;
+            float:left;  
+            padding: 0px;
+            margin: 15px;
+        }
+        .desc .left-blog .blog1:hover
+        {
+            background-color: white;
+            transition: 1.8s;
+        }
+        .desc .left-blog .blog2
+        {
+            -border: 1px solid red;
+            height: 42%;
+            width:95%;
+            background-color: green;
+            display: inline-block;
+            vertical-align: top;
+            float:left;  
+            padding: 0px;
+            margin: 15px;
+        }
+        .desc .left-blog .blog2:hover
+        {
+            background-color: white;
+            transition: 1.8s;
+        }
+        .desc .right-blog
+        {
+            -border: 1px solid red;
+            height:100%;
+            width:50%;
+            background-color: yellow;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .desc .right-blog .blog3
+        {
+            -border: 1px solid red;
+            height:90%;
+            width:95%;
+            background-color: blue;
+            display: inline-block;
+            vertical-align: top;
+            float:left;  
+            padding: 0px;
+            margin: 15px;
+        }
+        .footer
+        {
+            -border: 1px solid red;
+            background-color:#000;
+            color: white;
+            padding: 15px;
+            font-weight:45px;
+            text-align: center; 
+        }
+       
